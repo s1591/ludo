@@ -5,11 +5,15 @@ import (
 	"github.com/libretro/ludo/libretro"
 )
 
+// X Y -> Q W
+// A B -> A S
+// Z X -> select start
+
 var keyBinds = map[glfw.Key]uint32{
 	glfw.KeyA:      libretro.DeviceIDJoypadA,
 	glfw.KeyS:      libretro.DeviceIDJoypadB,
-	glfw.KeyQ:      libretro.DeviceIDJoypadY,
-	glfw.KeyW:      libretro.DeviceIDJoypadX,
+	glfw.KeyW:      libretro.DeviceIDJoypadY,
+	glfw.KeyQ:      libretro.DeviceIDJoypadX,
 	glfw.KeyL:      libretro.DeviceIDJoypadL,
 	glfw.KeyR:      libretro.DeviceIDJoypadR,
 	glfw.KeyUp:     libretro.DeviceIDJoypadUp,

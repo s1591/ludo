@@ -30,11 +30,11 @@ func hintIcons() (arrows, upDown, leftRight, a, b, x, y, start, slct, guide uint
 	return menu.icons["key-arrows"],
 		menu.icons["key-up-down"],
 		menu.icons["key-left-right"],
+		menu.icons["key-a"],
+		menu.icons["key-s"],
+		menu.icons["key-x"], // I only play GBA, so X,Y are unused.This X is for deleting history.
+		menu.icons["key-y"],
 		menu.icons["key-x"],
 		menu.icons["key-z"],
-		menu.icons["key-s"],
-		menu.icons["key-a"],
-		menu.icons["key-return"],
-		menu.icons["key-shift"],
 		menu.icons["key-p"]
 }
